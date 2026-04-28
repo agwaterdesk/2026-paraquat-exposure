@@ -270,6 +270,21 @@ ${title}
   }
 
   /**
+   * @param {{ facility: string, city: string, state: string }} f
+   */
+  function facilityTooltipHtml(f) {
+    const title = `<div class="county-tooltip__title">${f.facility}</div>`;
+    const place = `${f.city}, ${f.state}`;
+    return `<div class="county-tooltip">
+${title}
+<div class="county-tooltip__row">
+  <span class="county-tooltip__label">Location</span>
+  <span class="county-tooltip__value"><strong>${place}</strong></span>
+</div>
+</div>`;
+  }
+
+  /**
    * One delegated tooltip instance for everything in this SVG group.
    * (Much cheaper than creating thousands of individual tippy instances.)
    * @param {SVGGElement} node
@@ -335,7 +350,7 @@ ${title}
   </g>
 
   <!-- Paraquat warehouse / distribution hubs (top layer) -->
-  <g>
+  <g use:tooltipDelegate>
     {#each facilityPoints as f}
       <circle
         class="facility-marker"
@@ -345,6 +360,7 @@ ${title}
         fill="#fff"
         stroke="#000"
         stroke-width="4"
+        data-tippy-content={facilityTooltipHtml(f)}
       />
     {/each}
   </g>
@@ -367,7 +383,6 @@ ${title}
   :global(circle.facility-marker) {
     cursor: pointer;
     paint-order: stroke fill;
-    pointer-events: none;
   }
 
   :global(circle.facility-marker:hover) {
