@@ -1,0 +1,11 @@
+{"type":"FeatureCollection", "features": [
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[693935.4543426762,-624441.5648949448]},"properties":{"facility":"Sipcam Agro Solutions","city":"Waynesboro","state":"Miss."}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[-58610.65253723561,-575359.9903512044]},"properties":{"facility":"Shirm USA","city":"Ennis","state":"Texas"}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[92057.30060843148,203514.7769884515]},"properties":{"facility":"Drexel Chemical","city":"Leavenworth","state":"Kan."}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[537268.8597191074,-246429.8890280659]},"properties":{"facility":"Drexel Chemical and Nickey Warehouse","city":"Memphis","state":"Tenn."}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[510386.98762519466,-299779.5038944713]},"properties":{"facility":"Drexel Chemical","city":"Tunica","state":"Miss."}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[1146800.3707033333,-545145.918909632]},"properties":{"facility":"Helena Industries and Drexel Chemical","city":"Cordele","state":"Ga."}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[97783.81818163594,254809.4586471908]},"properties":{"facility":"Pony Express warehouse","city":"St. Joseph","state":"Mo."}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[1584991.0758529238,-42706.22536903797]},"properties":{"facility":"Select Source / Excelsior Equity","city":"Middlesex","state":"N.C."}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[469953.37012590386,-797160.0012264046]},"properties":{"facility":"Syngenta facility","city":"St. Gabriel","state":"La."}}
+    ]}

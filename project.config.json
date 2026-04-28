@@ -1,0 +1,25 @@
+{
+  "project": {
+    "name": "2026-paraquat-exposure",
+    "slug": "2026-paraquat-exposure"
+  },
+  "s3": {
+    "bucket": "",
+    "folder": "2026-paraquat-exposure"
+  },
+  "google": {
+    "doc": [
+      {
+        "id": "",
+        "filepath": "src/data/copy.json"
+      }
+    ],
+    "sheet": [
+      {
+        "id": "",
+        "gid": "",
+        "filepath": ""
+      }
+    ]
+  }
+}
