@@ -98,7 +98,7 @@
       <div class="legend-marker">
         <span class="legend-marker-icon" aria-hidden="true">
           <svg width="18" height="18" viewBox="0 0 18 18">
-            <circle cx="9" cy="9" r="5.2" fill={markerColor} stroke="#111" stroke-width="1" />
+            <circle cx="9" cy="9" r="5.2" fill={markerColor} stroke="#111" stroke-width="2" />
           </svg>
         </span>
         <span class="legend-marker-text">{markerLabel}</span>
@@ -124,8 +124,8 @@
   .legend-flex {
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
-    gap: 1rem;
+    justify-content: left;
+    column-gap: 3rem;
     flex-wrap: wrap;
   }
 
@@ -172,5 +172,11 @@
 
   text {
     dominant-baseline: middle;
+  }
+
+  .legend-marker-text {
+    font-size: 12px;
+    font-weight: 600;
+    color: #222;
   }
 </style>
